@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairs</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- swiper css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+    <!-- jquery css -->
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
+    <!-- Responsive Styles  -->
+    <link rel="stylesheet" href="assets/responsve-style.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light navigation container">
+            <a class="navbar-brand logo" href="#">Chairs.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse nav-div" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                  <a class="nav-link navigation-item" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation-item" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigation-item" href="#">shop</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation-item" href="#">blog</a>
+                </li>
+                <li class="nav-item contact-item">
+                    <a class="nav-link navigation-item" href="#">contact</a>
+                  </li>
+              </ul>
+              <div class="contact-div">
+                <div class="search-icon">
+                  <i class="fas fa-search"></i>
+    
+                 </div>
+                <div class="shopingcart-icon">
+                  <img src="assets/images/shop-icon.png" class="img-fluid">
+                </div>
+                <button class="btn btn-outline-success my-2 my-sm-0 login-button" type="submit">Login</button>
+              </div>
+            </div>
+          </nav>
+          <div class="content">
+           
+            <div class="header-content">
+              <div class="heading-section">
+             <h1>
+               <span>modern</span>
+               <span>interior design </span>
+             </h1>
+             <button class="btn btn-outline-success my-2 my-sm-0 shop-button" type="submit">shop now</button>
+  
+                </div>
+  
+              </div>
+              <div class="header-links">
+                <div class="icon">
+                  <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram"></i>
+  
+                  </a>
+                 
+                </div>
+                <div class="icon">
+                  <a href="https://web.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="icon">
+                  <a href="https://www.pinterest.com/">
+  
+                  <i class="fab fa-pinterest-p"></i>
+                  </a>
+                </div>
+              </div>
+
+          </div>
+          
+            
+          </div>
+
+    </header>
+    <!-- collection section -->
+    <div class="container-fluid collection-div">
+        <div class="row">
+          <div class="col-md-4 collection-box">
+            <div class="card">
+              <img src="assets/images/collection-img.png" class="card-img" alt="Table collection image">
+              <div class="card-img-overlay collection-text">
+                <h5 class="card-title">Table collection</h5>
+                <button class="btn btn-outline-success collection-button" type="submit">shop now</button>
+
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 collection-box">
+            <div class="card">
+              <img src="assets/images/collection-img.png" class="card-img" alt="Table collection image">
+              <div class="card-img-overlay collection-text">
+                <h5 class="card-title">Table collection</h5>
+                <button class="btn btn-outline-success collection-button" type="submit">shop now</button>
+
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 collection-box">
+            <div class="card">
+              <img src="assets/images/collection-img.png" class="card-img" alt="Table collection image">
+              <div class="card-img-overlay collection-text">
+                <h5 class="card-title">Table collection</h5>
+                <button class="btn btn-outline-success collection-button" type="submit">shop now</button>
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <!-- chairs collection section -->
+    <div class="container chairs-item">
+    <div class="chairs-div">
+      <div class="title">
+        <h4>Chair</h4>
+      </div>
+      <div  id="tabs">  
+        <ul>
+        <li>
+          <a href="#tabs-1" class="text-decoration-none">Chair</a>
+        </li>
+        <li class="active">
+          <a  href="#tabs-2"  class="text-decoration-none">Table</a>
+        </li>
+        <li>
+        <a  href="#tabs-3" class="text-decoration-none">Bench</a>  
+        </li>
+        <li>
+         <a  href="#tabs-4" class="text-decoration-none">Sale</a> 
+        </li>
+      </ul>
+      <div id="tabs-1">
+        <div class="container-fluid slider-div">
+          <div class=" container swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-md-4 slider-content slide-1">
+                    <div class="card">
+                      <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                      <div class="card-body">
+                        <span class="rating-box">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        
+    
+                        </span>
+                       <div class="card-title">
+                        <h5>Sample Product</h5>
+                        <i class="far fa-heart"></i>
+    
+                       </div>
+                       <p class="card-text"> $200.00</p>                   
+                        
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 slider-content slide-2">
+                    <div class="card">
+                      <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                      <div class="card-body">
+                        <span class="rating-box">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        
+    
+                        </span>
+                       <div class="card-title">
+                        <h5>Sample Product</h5>
+                        <i class="far fa-heart"></i>
+    
+                       </div>
+                       <p class="card-text"> $200.00</p>                   
+                        
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 slider-content slide-3">
+                    <div class="card">
+                      <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                      <div class="card-body">
+                        <span class="rating-box">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        
+    
+                        </span>
+                       <div class="card-title">
+                        <h5>Sample Product</h5>
+                        <i class="far fa-heart"></i>
+    
+                       </div>
+                       <p class="card-text"> $200.00</p>                   
+                        
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-md-4 slider-content slide-1">
+                <div class="card">
+                  <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                  <div class="card-body">
+                    <span class="rating-box">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    
+    
+                    </span>
+                   <div class="card-title">
+                    <h5>Sample Product</h5>
+                    <i class="far fa-heart"></i>
+    
+                   </div>
+                   <p class="card-text"> $200.00</p>                   
+                    
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 slider-content slide-2">
+                <div class="card">
+                  <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                  <div class="card-body">
+                    <span class="rating-box">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    
+    
+                    </span>
+                   <div class="card-title">
+                    <h5>Sample Product</h5>
+                    <i class="far fa-heart"></i>
+    
+                   </div>
+                   <p class="card-text"> $200.00</p>                   
+                    
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 slider-content slide-3">
+                <div class="card">
+                  <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                  <div class="card-body">
+                    <span class="rating-box">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    
+    
+                    </span>
+                   <div class="card-title">
+                    <h5>Sample Product</h5>
+                    <i class="far fa-heart"></i>
+    
+                   </div>
+                   <p class="card-text"> $200.00</p>                   
+                    
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-md-4 slider-content slide-1">
+                <div class="card">
+                  <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                  <div class="card-body">
+                    <span class="rating-box">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    
+    
+                    </span>
+                   <div class="card-title">
+                    <h5>Sample Product</h5>
+                    <i class="far fa-heart"></i>
+    
+                   </div>
+                   <p class="card-text"> $200.00</p>                   
+                    
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 slider-content slide-2">
+                <div class="card">
+                  <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                  <div class="card-body">
+                    <span class="rating-box">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    
+    
+                    </span>
+                   <div class="card-title">
+                    <h5>Sample Product</h5>
+                    <i class="far fa-heart"></i>
+    
+                   </div>
+                   <p class="card-text"> $200.00</p>                   
+                    
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 slider-content slide-3">
+                <div class="card">
+                  <img src="assets/images/slider-img.png" class="card-img-top" alt="slider image">
+                  <div class="card-body">
+                    <span class="rating-box">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    
+    
+                    </span>
+                   <div class="card-title">
+                    <h5>Sample Product</h5>
+                    <i class="far fa-heart"></i>
+    
+                   </div>
+                   <p class="card-text"> $200.00</p>                   
+                    
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+      </div>
+        </div>
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+      </div>
+    
+    </div>
+  
+
+    </div>
+    <hr>
+    </div>
+    <!-- slider section -->
+ 
+    <!-- services section -->
+    <div class="container-fluid services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 services-div1">
+            <div class="card">
+              <img src="assets/images/services-img1.png" class="card-img-top img-fluid services-img1" alt="services image 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">very special form</h5>
+                <p class="card-text mb-0">
+                  <span class="d-block">Lorem ipsum is a simply</span>
+                  <span class="d-block">dummy text</span>
+                 </p>
+                <a href="#" class="btn btn-link services-button">
+                  <span class="underline-text">M</span>ORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 services-div2">
+            <div class="card">
+              <img src="assets/images/services-img2.png" class="card-img-top img-fluid services-img2" alt="services image 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">very special form</h5>
+                <p class="card-text mb-0">
+                  <span class="d-block">Lorem ipsum is a simply</span>
+                  <span class="d-block">dummy text</span>
+                 </p>
+                <a href="#" class="btn btn-link services-button">
+                  <span class="underline-text">M</span>ORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 services-div3">
+            <div class="card">
+              <img src="assets/images/services-img3.png" class="card-img-top img-fluid services-img3" alt="services image 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">very special form</h5>
+                <p class="card-text mb-0">
+                  <span class="d-block">Lorem ipsum is a simply</span>
+                  <span class="d-block">dummy text</span>
+                 </p>
+                <a href="#" class="btn btn-link services-button">
+                  <span class="underline-text">M</span>ORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- New arivals section -->
+    <div class=" container arivals-section">
+      <h3 class="text-center">New arivals</h3>
+      <hr>
+       </div>
+       <!-- new arivals slider -->
+       <div class="container-fluid slider-div">
+        <div class=" container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row">
+                <div class="col-md-4 slider-content slide-1">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+  
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                       <span class="d-block">Lorem Ipsum is simply</span>  
+                       <span class="d-block">dummy text of the printing</span>
+                       <span class="d-block">and typesetting industry.</span>
+                      </p>  
+                     <p class="card-text"> $200.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 slider-content slide-2">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                      <span class="d-block">Lorem Ipsum is simply</span>  
+                      <span class="d-block">dummy text of the printing</span>
+                      <span class="d-block">and typesetting industry.</span>
+                     </p>  
+                     <p class="card-text"> $100.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 slider-content slide-3">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+  
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                      <span class="d-block">Lorem Ipsum is simply</span>  
+                      <span class="d-block">dummy text of the printing</span>
+                      <span class="d-block">and typesetting industry.</span>
+                     </p>  
+                     <p class="card-text"> $180.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row">
+                <div class="col-md-4 slider-content slide-1">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+  
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                       <span class="d-block">Lorem Ipsum is simply</span>  
+                       <span class="d-block">dummy text of the printing</span>
+                       <span class="d-block">and typesetting industry.</span>
+                      </p>  
+                     <p class="card-text"> $200.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 slider-content slide-2">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                      <span class="d-block">Lorem Ipsum is simply</span>  
+                      <span class="d-block">dummy text of the printing</span>
+                      <span class="d-block">and typesetting industry.</span>
+                     </p>  
+                     <p class="card-text"> $100.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 slider-content slide-3">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+  
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                      <span class="d-block">Lorem Ipsum is simply</span>  
+                      <span class="d-block">dummy text of the printing</span>
+                      <span class="d-block">and typesetting industry.</span>
+                     </p>  
+                     <p class="card-text"> $180.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+       
+            <div class="swiper-slide">
+              <div class="row">
+                <div class="col-md-4 slider-content slide-1">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+  
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                       <span class="d-block">Lorem Ipsum is simply</span>  
+                       <span class="d-block">dummy text of the printing</span>
+                       <span class="d-block">and typesetting industry.</span>
+                      </p>  
+                     <p class="card-text"> $200.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 slider-content slide-2">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                      <span class="d-block">Lorem Ipsum is simply</span>  
+                      <span class="d-block">dummy text of the printing</span>
+                      <span class="d-block">and typesetting industry.</span>
+                     </p>  
+                     <p class="card-text"> $100.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 slider-content slide-3">
+                  <div class="card">
+                    <img src="assets/images/news-arival-img.png" class="card-img-top" alt="slider image">
+                    <div class="card-body">
+                      <span class="rating-box">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      
+  
+                      </span>
+                     <div class="card-title">
+                      <h5>Sample Product</h5>
+                      <i class="far fa-heart"></i>
+  
+                     </div>
+                     <hr>
+                     <p class="card-text text"> 
+                      <span class="d-block">Lorem Ipsum is simply</span>  
+                      <span class="d-block">dummy text of the printing</span>
+                      <span class="d-block">and typesetting industry.</span>
+                     </p>  
+                     <p class="card-text"> $180.00</p>                   
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Collection section -->
+      <div class="container-fluid category">
+        
+        <div class="container">
+          <h3 class="text-center">CATEGORY</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="assets/images/category-img.png" class="card-img img-fluid" alt="Table image">
+                <div class="card-img-overlay category-content">
+                  <h5 class="card-title text-center text-uppercase">Table</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 category-div">
+              <div class="card">
+                <img src="assets/images/category-img.png" class="card-img img-fluid" alt="Table image">
+                <div class="card-img-overlay category-content">
+                  <h5 class="card-title text-center text-uppercase">Chair</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 category-div">
+              <div class="card">
+                <img src="assets/images/category-img.png" class="card-img img-fluid" alt="Table image">
+                <div class="card-img-overlay category-content">
+                  <h5 class="card-title text-center text-uppercase">Sofa</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- footer -->
+      <footer class="container-fluid">
+      <div class="container footer-top-content">
+        <div class="row">
+          <div class="col-md-3 footer-div1">
+          <h3 class="mb-0">COMPANY</h3>
+          <ul>
+            <li>
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Address</a>
+            </li>
+          </ul>
+          </div>
+          <div class="col-md-3 footer-div1">
+            <h3 class="mb-0">COMMUNITY</h3>
+            <ul>
+              <li>
+                <a href="#">Facebook</a>
+              </li>
+              <li>
+                <a href="#">Twitter</a>
+              </li>
+              <li>
+                <a href="#">Instagram</a>
+              </li>
+              <li>
+                <a href="#">LinkedIn</a>
+              </li>
+            </ul>
+            </div>
+            <div class="col-md-3 footer-div1">
+              <h3 class="mb-0">RETURNS</h3>
+              <ul>
+                <li>
+                  <a href="#">FAQS</a>
+                </li>
+                <li>
+                  <a href="#">Size Guide</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#">Sell with Us</a>
+                </li>
+                <li>
+                  <a href="#">Sitemap</a>
+                </li>
+              </ul>
+              </div>
+          <div class="col-md-3 footer-address">
+            <h2 class="footer-logo">
+              <a href="#">Chairs.</a>
+            </h2>
+            <p>
+            <span class="d-block">Street addresses 445 Mount</span>
+            <span class="d-block"> Eden Road, Mount Eden,</span>
+              <span class="d-block">Auckhad-Postcodes 5022</span>
+            </p>
+              <ul class="footer-links">
+                <li>
+                  <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://pk.linkedin.com/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/explore">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+               
+               
+              </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+       <!-- bottom footer -->
+      <div class="container footer-bottom-content">
+      <p class="status-div">
+        <span>Status</span>
+        <span>Contact Us</span>
+      </p>
+      <p>Copyright @ 2019 Template</p>
+
+      </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- swiper js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+    <!-- jquery ui js links -->
+    <script type="text/javascript" src="assets/jquery-ui/external/jquery/jquery.js"></script>
+    <script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
+     <!-- Jquery CDN -->
+   
+   <!-- bootstrap js links -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- External js file -->
+<script type="text/javascript" src="assets/script.js"></script>
+</body>
+
+</html>
